@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(45deg, rgb(129, 115, 206), rgba(40, 40, 255, 0.988), rgb(33, 33, 180));
+    background-repeat: no-repeat;
+    padding: 10%;
+    height: 100vh;
+}
+.container{
+    border-top: solid white;
+    width: 77%;
+    height: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 9%;
+    z-index: 1;
+    box-shadow: 2px 3px 15px rgba(54, 167, 219, 0.837);
+    background-color: aliceblue;
+}
+.icon{
+    margin-top: 5vh;
+}
+.summary {
+    width: 100%;
+    color: rgb(17, 16, 16);
+    font-family: cursive;
+    text-align: center;
+    margin-top: 2%;
+}
+.temp p{font-size: 8vh; font-weight: bold;cursor: pointer;}
+.location{margin:3%;font-size: 5vh;font-weight: bolder;background-color: rgb(236, 235, 243);
+    padding: 2%;
+}
+/* right style in right container with right property. */
+.heading{
+    font-size: 4vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: rgb(18, 17, 17);
+    margin:10px;
+}
+
+/* use google font api to have good fonts. */
